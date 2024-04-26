@@ -27,7 +27,9 @@ else if(age == 17){
 else if(age<0){
     resulttext.textContent = ("Your age can't be below 0")
 }
-
+else if(age = String){
+    resulttext.textContent = ("enter a number only!")
+}
 else{
     resulttext.textContent = ("Your to young to enter")
 }
